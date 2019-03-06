@@ -8,7 +8,8 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
-  font-family: "Courier New", Courier, monospace
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 100px;
   /*background-color: pink;*/
   background-image: linear-gradient(to right, pink , hotpink);
   font-family: "Courier New", Courier, monospace;
