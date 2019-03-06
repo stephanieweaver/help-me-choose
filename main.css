@@ -22,6 +22,11 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+.images {
+display: flex;
+flex-direction: row;
+}
+
 h1 {
   color: white;
   font-weight: lighter;
