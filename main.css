@@ -9,8 +9,10 @@ button {
   font-size: 16px;
   border-radius: 10px;
   font-family: "Courier New", Courier, monospace;
+  font-family: 'Candal', sans-serif;
   cursor: pointer;
 
+    font-family: 'Candal', sans-serif;
 }
 
 body {
@@ -22,6 +24,9 @@ body {
   /*background-color: pink;*/
   background-image: linear-gradient(to right, pink , hotpink);
   font-family: "Courier New", Courier, monospace;
+  /*font-family: 'Bevan', cursive;*/
+  font-family: 'Candal', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .images {
