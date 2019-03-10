@@ -1,4 +1,6 @@
-button {
+
+
+.submit {
   background-color: white;
   border: none;
   color: black;
@@ -7,15 +9,45 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  color: hotpink;
   border-radius: 10px;
-  font-family: "Courier New", Courier, monospace;
   font-family: 'Candal', sans-serif;
   cursor: pointer;
-
-    font-family: 'Candal', sans-serif;
 }
 
-body {
+
+.addOption {
+      background-color: transparent;
+      width: 40px;
+      margin-top: 20px;
+      height: 40px;
+      border-radius: 50%;
+      border-width: 2px;
+      border-color: white;
+      font-size: 20px;
+      color: white;
+      font-family: arial;
+      text-align: center;
+  }
+
+.resultSection {
+    background-color: transparent;
+    font-size: 100px;
+    color: white;
+    font-family: 'Candal', sans-serif;
+    height: 300px;
+    display: flex;
+    cursor: default;
+    justify-content: center;
+    align-items: center;
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+}
+
+  body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,10 +55,29 @@ body {
   margin-top: 100px;
   /*background-color: pink;*/
   background-image: linear-gradient(to right, pink , hotpink);
-  font-family: "Courier New", Courier, monospace;
   /*font-family: 'Bevan', cursive;*/
   font-family: 'Candal', sans-serif;
+}
+
+
+input {
+    height: 40px;
+    width: 460px;
+    font-size: 20px;
     font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    outline: 0;
+    margin-top: 10px;
+    border-width: 0 0 2px;
+    border-bottom: 2px, solid white;
+    border-color: white;
+}
+
+input::placeholder {
+  color: white;
+  font-style: oblique;
 }
 
 .images {
@@ -43,7 +94,7 @@ h1 {
 }
 
 .inputSection {
-  margin: 50px 0px 80px 0px;
+  margin: 50px 0px 50px 0px;
   width: 400px;
   font-family: "Courier New", Courier, monospace
 }
@@ -56,10 +107,6 @@ h1 {
 }
 
 input {
-  margin-top: 10px;
-}
-
-.addOption {
   margin-top: 10px;
 }
 
