@@ -10,6 +10,7 @@ button {
   border-radius: 10px;
   font-family: "Courier New", Courier, monospace;
   cursor: pointer;
+
 }
 
 body {
@@ -55,4 +56,12 @@ input {
 
 .addOption {
   margin-top: 10px;
+}
+
+.resultSection {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
